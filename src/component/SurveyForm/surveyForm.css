@@ -1,0 +1,182 @@
+/* General Container */
+.survey-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .survey-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2f2f2f;
+    margin-bottom: 1.5rem;
+  }
+  
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Questions */
+  .question-container {
+    margin-bottom: 2rem;
+  }
+  .logo{
+    max-width: 100%;
+    height: auto;
+  }
+  .question-text {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 1rem;
+    display: block;
+    font-weight:bold;
+  }
+  
+  /* Options */
+  .options-container {
+    margin-left: 1rem;
+  }
+  
+  .option {
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  
+  /* Text Input */
+  .text-input {
+    width: 60%;
+    padding: 12px;
+    margin-top: 0.5rem;
+   background: #f9f9f9;
+   font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none; 
+    border-bottom: 1px solid black;
+    outline: none;
+    resize: vertical;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    width: 64%;
+    background: #f9f9f9;
+    padding: 12px;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: px;
+    font-size: 14px;
+    outline: none;
+  }
+  .steric{
+    color: red;       /* Red color for the asterisk */
+    font-size: 1rem;  /* Slightly smaller font size */
+    vertical-align: top; /* Align closer to the top of the question text */
+    margin-left: 5px;
+    position: relative;
+
+  }
+
+  
+  /* Buttons */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    padding: 8px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .overview{
+    /* font-family: 'docs-Roboto';   */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
+  .back-button {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .back-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .next-button {
+    
+    background-color: rgb(123, 230, 247);
+    color: rgb(53, 52, 52);
+  }
+  
+  .next-button:hover {
+    background-color: rgb(61, 222, 247);
+  }
+  
+  .submit-button {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .submit-button:hover {
+    background-color: #1e88e5;
+  }
+  .thank-you-message {
+    text-align: center;
+    margin-top: 50px;
+    color:#009edb;
+    font-family: Arial, sans-serif;
+  }
+  
+  .thank-you-message h1 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #1e88e5;
+  }
+  
+ 
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .survey-container {
+      padding: 1.5rem;
+    }
+  
+    .question-text {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  
+    .button {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  }
+  
